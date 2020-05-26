@@ -23,5 +23,5 @@ def mdl():
     a=int(accu)
     with open('/root/data/accu.txt',"w" ) as f:
         data = str(a)
-	f.write(data)
+        f.write(data)
 mdl()
